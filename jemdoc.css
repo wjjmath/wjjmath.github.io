@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  font-family: Georgia, serif;
+  font-family: Microsoft Yahei;
   color: #000;
   background-color: #ffffff;
   text-align:left; /* for IE */
@@ -126,7 +126,6 @@ em {
 strong {
 	font-weight: bold;
 }
-
 
 h1, h2, h3 {
 	color: #527bbd;
@@ -385,7 +384,7 @@ table.imgtable, table.imgtable td {
    /* margin: 10px auto;框框整体的位置，30px是指离网页的顶部和下部的距离，auto控制的是左右距离为自动调节 */
    margin-top: -10px;
    margin-bottom: 10px;
-   width: 928px;/*框框的宽度*/
+   width: 700px;/*框框的宽度*/
    height: 50px;/*框框的长度*/
    padding: 0px;/*将框框的padding设置为零，不然会导致框框里的内容与框边缘有间隔*/
    /* border:1px solid #000;添加边框 */
@@ -405,13 +404,14 @@ table.imgtable, table.imgtable td {
    /* height: 50px;设置块的长度 */
    font-family: Microsoft Yahei;
    line-height: 50px;/*设置字体在块中的高度*/
-   background-color: #2f4f4f;
+   /*background-color: #4169E1;*/
    margin: 0px 0px;/*块里的高宽通过margin设置*/
-   color: #fff;
+   color: black;
    text-align: center;/*字体居中*/
    text-decoration: none;/*去掉下划线*/
-   font-size: 15px;
+   font-size: 18px;
+   font-weight: bold;
 }
 .nav a:hover{
-   background-color: #2f6f4f;
+   background-color: #D3D3D3;
 }
